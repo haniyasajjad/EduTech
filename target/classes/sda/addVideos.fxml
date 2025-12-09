@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="courseResources.videosController" >
+    <children>
+        <VBox styleClass="add-video-form" spacing="10.0" alignment="CENTER" AnchorPane.topAnchor="50.0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+            <children>
+                <Label styleClass="add-video-header" text="Add a Video" />
+                <!-- TextField for course name -->
+                <TextField fx:id="courseNameField" promptText="Enter course name" styleClass="add-video-text-field" />
+                <!-- TextField for video title -->
+                <TextField fx:id="videoTitleField" promptText="Enter video title" styleClass="add-video-text-field" />
+                <!-- TextField for video URL -->
+                <TextField fx:id="videoUrlField" promptText="Enter video URL" styleClass="add-video-text-field" />
+                <!-- TextArea for video description -->
+                <TextArea fx:id="videoDescriptionArea" promptText="Enter video description" styleClass="add-video-text-field" wrapText="true" prefRowCount="4" />
+                <!-- Button to add the video -->
+                <Button fx:id="addVideoButton" text="Add Video" styleClass="add-video-button" onAction="#handleAddVideo" />
+                <!-- Button to go back -->
+                <Button fx:id="backButton" text="Back" styleClass="back-button" onAction="#handleBackButton" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

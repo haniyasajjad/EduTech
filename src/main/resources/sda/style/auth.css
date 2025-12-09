@@ -1,0 +1,91 @@
+/* Global VBox Styles */
+.vbox {
+    -fx-background-color: linear-gradient(to bottom, #D8BFD8, #E6E6FA); /* Gradient for a softer purple tone */
+    -fx-alignment: center;
+    -fx-spacing: 15; /* Space between elements */
+    -fx-padding: 20;
+    -fx-border-radius: 10px;
+}
+
+/* Title Labels (e.g., "LOGIN", "SIGNUP") */
+.label-title {
+    -fx-font-size: 32px;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-text-fill: #4B0082; /* Deep indigo for better contrast */
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 20 0; /* Space below the title */
+}
+
+/* Text Fields and Password Fields */
+.text-field, .password-field {
+    -fx-font: 16px "Arial";
+    -fx-padding: 8;
+    -fx-background-color: #FADADD; /* Soft pink background */
+    -fx-text-fill: #333; /* Dark text for readability */
+    -fx-border-color: #4B0082; /* Indigo for borders */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-cursor: text;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+}
+
+/* Custom Buttons */
+.custom-button {
+    -fx-font: 18px "Arial";
+    -fx-padding: 10;
+    -fx-text-fill: #FFFFFF; /* White text for contrast */
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 4, 0, 0, 1);
+    -fx-border-color: #4B0082; /* Indigo border */
+    -fx-border-width: 2px;
+}
+
+/* Back Button */
+.back-button {
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+    -fx-background-color: #FFD1DC; /* Soft pink with transparency */
+    -fx-text-fill: #4B0082; /* Indigo text */
+    -fx-border-color: #4B0082;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+}
+
+/* TabPane Styling */
+.tab-pane {
+    -fx-background-color: linear-gradient(to bottom, #F8E8F5, #E6E6FA); /* Light lavender gradient */
+    -fx-tab-min-width: 120px; /* Slightly wider tabs */
+    -fx-tab-max-width: 150px;
+    -fx-focus-color: transparent; /* Remove focus highlight */
+    -fx-border-color: #4B0082; /* Indigo border for tabs */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+/* Tab Header Styling */
+.tab-pane .tab-header-area .tab {
+    -fx-background-color: #FFD1DC; /* Soft pink */
+    -fx-text-fill: #4B0082; /* Indigo text */
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+}
+
+.tab-pane .tab-header-area .tab:selected {
+    -fx-background-color: #4B0082; /* Deep indigo for active tab */
+    -fx-text-fill: #FFFFFF; /* White text for contrast */
+    -fx-font-weight: bold;
+}
+
+/* Hover Effects for Buttons */
+.custom-button:hover, .back-button:hover {
+    -fx-background-color: #FF69B4; /* Hot pink on hover */
+    -fx-text-fill: #FFFFFF; /* White text on hover */
+}
+
+/* Hover Effects for Tabs */
+.tab-pane .tab-header-area .tab:hover {
+    -fx-background-color: #F48FB1; /* Light pink on hover */
+    -fx-text-fill: #FFFFFF; /* White text on hover */
+}

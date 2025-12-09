@@ -1,0 +1,132 @@
+/* Student Menu Styling */
+
+.student-menu {
+    -fx-background-color: linear-gradient(to bottom, #FFDDC1, #FFC1F3); /* Gradient background */
+    -fx-padding: 20px; /* Reduce padding to allow more space */
+    -fx-spacing: 15px; /* Slightly closer spacing between elements */
+    -fx-alignment: center;
+    -fx-border-color: #D8BFD8;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0, 5, 5);
+}
+
+/* Header Text Styling */
+.header-text {
+    -fx-font-size: 30px; /* Slightly smaller header text */
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-text-fill: #4B0082; /* Indigo color */
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 2);
+}
+
+/* Menu Buttons Styling */
+.menu-button {
+    -fx-font-size: 14px; /* Smaller font size */
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-background-color: #FF69B4; /* Vibrant pink */
+    -fx-pref-width: 150px; /* Reduced width */
+    -fx-pref-height: 35px; /* Reduced height */
+    -fx-padding: 4; /* Adjust padding */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #FF69B4;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0, 0, 1);
+}
+
+.menu-button:hover {
+    -fx-background-color: #FF85B4; /* Slightly lighter pink on hover */
+    -fx-border-color: #FF69B4;
+}
+
+/* Logout Button Styling */
+.logout-button {
+    -fx-font-size: 14px; /* Smaller font size */
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #E94E77; /* Red-pink for logout */
+    -fx-pref-width: 150px; /* Reduced width */
+    -fx-pref-height: 35px; /* Reduced height */
+    -fx-padding: 4; /* Adjust padding */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #E94E77;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0, 0, 1);
+}
+
+.logout-button:hover {
+    -fx-background-color: #D13C5C; /* Darker red-pink on hover */
+}
+/* Student Menu Styling */
+
+.student-menu {
+    -fx-background-color: linear-gradient(to bottom, #FFDDC1, #FFC1F3); /* Gradient background */
+    -fx-padding: 20px; /* Reduce padding to allow more space */
+    -fx-spacing: 15px; /* Slightly closer spacing between elements */
+    -fx-alignment: center;
+    -fx-border-color: #D8BFD8;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0, 5, 5);
+}
+
+/* Header Text Styling */
+.header-text {
+    -fx-font-size: 30px; /* Slightly smaller header text */
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-text-fill: #4B0082; /* Indigo color */
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 2);
+}
+
+/* Menu Buttons Styling */
+.menu-button {
+    -fx-font-size: 14px; /* Smaller font size */
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-background-color: #FF69B4; /* Vibrant pink */
+    -fx-pref-width: 150px; /* Reduced width */
+    -fx-pref-height: 35px; /* Reduced height */
+    -fx-padding: 4; /* Adjust padding */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #FF69B4;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0, 0, 1);
+}
+
+.menu-button:hover {
+    -fx-background-color: #FF85B4; /* Slightly lighter pink on hover */
+    -fx-border-color: #FF69B4;
+}
+
+/* Logout Button Styling */
+.logout-button {
+    -fx-font-size: 14px; /* Smaller font size */
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #E94E77; /* Red-pink for logout */
+    -fx-pref-width: 150px; /* Reduced width */
+    -fx-pref-height: 35px; /* Reduced height */
+    -fx-padding: 4; /* Adjust padding */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #E94E77;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0, 0, 1);
+}
+
+.logout-button:hover {
+    -fx-background-color: #D13C5C; /* Darker red-pink on hover */
+}

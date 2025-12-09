@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="courseResources.summaryController" >
+    <children>
+        <VBox fx:id="addSummaryForm" styleClass="add-summary-form" spacing="10.0" alignment="CENTER"
+              AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0">
+            <children>
+                <Label styleClass="add-summary-header" text="Add Summary" />
+                
+                <!-- Summary Title Field -->
+                <TextField fx:id="summaryTitleField" promptText="Enter summary title" styleClass="add-summary-text-field" />
+
+                <!-- Summary Content Field -->
+                <TextArea fx:id="summaryTextField" promptText="Enter summary content" styleClass="add-summary-text-field" />
+
+                <!-- Add Summary Button -->
+                <Button fx:id="addSummaryButton" text="Add Summary" styleClass="add-summary-button" onAction="#handleAddSummary" />
+
+                <!-- Back Button -->
+                <Button fx:id="backButton" text="Back" styleClass="back-button" onAction="#handleBackButton" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

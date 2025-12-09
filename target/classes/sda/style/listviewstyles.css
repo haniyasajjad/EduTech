@@ -1,0 +1,17 @@
+/* ListView Styling */
+.list-view .list-cell {
+    -fx-background-color: linear-gradient(to bottom, #D8BFD8, #E6E6FA); /* Gradient for softer purple tone */
+    -fx-text-fill: #000000; /* Black text for contrast */
+    -fx-padding: 10;
+}
+
+/* Style for selected items */
+.list-view .list-cell:selected {
+    -fx-background-color: linear-gradient(to bottom, #E6E6FA, #F8F8FF); /* Highlight gradient */
+    -fx-text-fill: #FFFFFF; /* White text for contrast */
+}
+
+/* Hover effect */
+.list-view .list-cell:hover {
+    -fx-background-color: linear-gradient(to bottom, #DDA0DD, #EE82EE); /* Hover gradient */
+}

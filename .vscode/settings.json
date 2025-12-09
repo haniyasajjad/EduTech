@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/mysql-connector-java-8.0.33.jar",
+        "/Users/mac/Desktop/javafx-sdk-23/lib/*.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

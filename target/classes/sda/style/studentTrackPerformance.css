@@ -1,0 +1,60 @@
+/* Background Gradient */
+.background {
+    -fx-background-color: linear-gradient(to bottom right, #d19e9d, #f4b3e5, #5d4037);
+    -fx-padding: 20px;
+}
+
+/* Header Text */
+.header-text {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-family: 'Comic Sans MS';
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 4, 0.5, 0, 2);
+}
+
+/* Subject Boxes */
+.subject-box {
+    -fx-background-color: #f241ff; /* Purple */
+    -fx-background-radius: 12px;
+    -fx-padding: 15px; /* Increased for text spacing */
+    -fx-border-color: #b07dcf; /* Darker purple */
+    -fx-border-width: 2px;
+    -fx-border-radius: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0.3, 0, 2);
+    -fx-pref-width: 180px; /* Increased box width */
+    -fx-pref-height: 130px; /* Increased box height */
+}
+
+/* Subject Box Hover */
+.subject-box:hover {
+    -fx-background-color: #eec3ff; /* Lighter purple */
+    -fx-cursor: hand;
+}
+
+/* Subject Titles */
+.subject-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+/* Stats Labels */
+.stats-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #ffffff;
+}
+
+/* Chart Titles */
+.chart-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+/* Pie Charts */
+.pie-chart {
+    -fx-legend-side: bottom;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Label?>
+
+
+<VBox spacing="25" alignment="CENTER" xmlns:fx="http://javafx.com/javafx" 
+      fx:controller="sda.studentMenu" styleClass="vbox">
+
+    <!-- Header Text -->
+    <Label text="Student Dashboard" style="-fx-font: 60px 'Arial'; -fx-text-fill: #FFFFFF; -fx-font-weight: bold;" />
+
+    <!-- Menu Buttons -->
+    <VBox spacing="15" alignment="CENTER">
+        <Button text="Enroll into New Course" styleClass="menu-button" onAction="#handleEnrollCourse" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        <Button text="View Enrolled Courses" styleClass="menu-button" onAction="#handleViewCourses" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        <Button text="Attempt Quiz" styleClass="menu-button" onAction="#handleAttemptQuiz" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        <Button text="View Course Resources" styleClass="menu-button" onAction="#handleViewCourseResources" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        <Button text="Attempt Assignment" styleClass="menu-button" onAction="#handleAttemptAssignment" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        <Button text="Attempt Exercise" styleClass="menu-button" onAction="#handleAttemptExercise" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        <Button text="Track Performance" styleClass="menu-button" onAction="#handleTrackPerformance" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        <Button text="Create Plan" styleClass="menu-button" onAction="#handleCreatePersonalPlan" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        <Button text="Create Study Group" styleClass="menu-button" onAction="#handleCreateStudyGroup" 
+        	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+        
+    </VBox>
+
+    <!-- Logout Button -->
+    <Button text="Logout" styleClass="logout-button" onAction="#handleLogout" 
+    	style="-fx-font: 20px 'Arial'; -fx-pref-width: 280px; -fx-pref-height: 50px;" />
+
+
+</VBox>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<StackPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sda.WelcomeController" styleClass="welcome-screen">
+    
+    <VBox spacing="20" alignment="CENTER">
+        <!-- GIF Section -->
+        <HBox spacing="10" alignment="CENTER">
+            <ImageView fx:id="gif1" fitWidth="200" fitHeight="150" preserveRatio="true"/>
+            <ImageView fx:id="gif2" fitWidth="200" fitHeight="150" preserveRatio="true"/>
+        </HBox>
+
+        <!-- Animated Text -->
+        <Text fx:id="welcomeText" text="Welcome to EduTech" styleClass="welcome-label"/>
+    </VBox>
+    
+</StackPane>

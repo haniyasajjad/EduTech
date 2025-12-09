@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.Circle?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="user.ManageStudentProfileController" alignment="CENTER" spacing="20" >
+
+    <!-- Header Section -->
+    <Label text="STUDENT PROFILES" fx:id="headerLabel" style="-fx-font-size: 24px; -fx-font-weight: bold;" alignment="CENTER"/>
+
+    <!-- Scrollable Student Cards Container -->
+    <ScrollPane fitToWidth="true" styleClass="scroll-pane">
+        <FlowPane fx:id="studentCardContainer" alignment="CENTER" hgap="20" vgap="20" style="-fx-padding: 20;">
+        </FlowPane>
+    </ScrollPane>
+
+    <!-- Back Button at the Bottom -->
+    <Button text="Back" fx:id="backButton" onAction="#handleBackButton" 
+            style="-fx-font-size: 16px; -fx-background-color: #9966ff; -fx-text-fill: white; -fx-border-radius: 20; -fx-padding: 10 20;" />
+    
+</VBox>

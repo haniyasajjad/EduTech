@@ -1,0 +1,17 @@
+/* Label Title Style */
+
+#roleSelectionLabel {
+
+    -fx-font-size: 45px;
+
+	-fx-font-family: "Arial", sans-serif;
+
+    -fx-font-weight: bold;
+
+    -fx-text-fill: #FFFFFF; /* Indigo color */
+
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0, 0, 2);
+
+    -fx-padding: 10;
+
+}

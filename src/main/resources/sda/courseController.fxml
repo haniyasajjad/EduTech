@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="25" alignment="CENTER" xmlns:fx="http://javafx.com/javafx" 
+      fx:controller="courses.CourseController" styleClass="course-controller">
+
+    <!-- Course List View -->
+    <ListView fx:id="courseListView" prefHeight="200" prefWidth="300" />
+
+    <!-- Forward Button -->
+    <Button text="Forward Course" onAction="#handleForwardCourse" styleClass="forward-button"/>
+
+</VBox>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="courseResources.bookController" >
+    <children>
+        <VBox styleClass="add-book-form" spacing="10.0" alignment="CENTER"
+              AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0">
+            <children>
+                <Label fx:id="addBookHeader" styleClass="add-book-header" text="Add a Book" />
+                <TextField fx:id="bookTitleField" promptText="Enter book title" styleClass="add-book-text-field" />
+                <TextField fx:id="bookDescriptionField" promptText="Enter book description" styleClass="add-book-text-field" />
+                <TextField fx:id="bookUrlField" promptText="Enter book URL" styleClass="add-book-text-field" />
+                <Button fx:id="addBookButton" text="Add Book" styleClass="add-book-button" onAction="#handleAddBook" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
